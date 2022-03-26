@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Varela&display=swap');
+
+.songItems {
+   display: flex;
+   flex-direction: column;
+   font-size: 1rem;
+   font-family: 'Roboto';
+}
+
+.songItem {
+   height: 60px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   transition: all .1s ease-in-out;
+   position: relative;
+}
+.songItem:hover {
+   background-color: #3a3a3a;
+}
+.songItem:hover .favoriteIcon {
+   opacity: 1;
+}
+.songItem:hover .songNumber {
+   display: none;
+}
+.songItem:hover .plauseIcon {
+   display: block;
+}
+
+.songNumOrIcon {
+   color: #b3b3b3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   left: 4vw;
+}
+
+.songNumber {
+   position: absolute;
+   left: 0;
+}
+
+.plauseIcon {
+   position: absolute;
+   left: -0.5vw;
+}
+.plauseIcon:hover {
+   color: #fff;
+}
+
+.songName, .favoriteIcon, .songDuration {
+   position: absolute;
+}
+
+.songName {
+   left: 7vw;
+   cursor: default;
+}
+
+.favoriteIcon {
+   right: 10vw;
+}
+
+.songDuration {
+   right: 3.75vw;
+}
+
+.songName, .plauseIcon {
+  transition: color 0.2s ease-in-out;
+}
+
+.plauseIcon {
+   display: none;
+   cursor: default;
+   color: #b3b3b3;
+   transition: color .3s ease-in-out;
+}
+
+.plauseIcon.playing {
+   display: block;
+}
+
+.songNumber.playing {
+   display: none;
+}
+
+.favoriteIcon {
+   opacity: 0;
+   transition: all .2s ease-in-out;
+}
+.favoriteIcon i {
+   color: #b3b3b3;
+   cursor: default;
+   transition: all .2s ease-in-out;
+}
+.favoriteIcon i:hover {
+   color: rgb(0, 180, 0);
+}

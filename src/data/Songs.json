@@ -1,0 +1,298 @@
+{
+   "songs": [
+      {
+         "songName": "Night Changes",
+         "duration": "04:00",
+         "songArtist": "One Direction",
+         "songAlbum": "Four"
+      },
+      {
+         "songName": "Steal My Girl",  
+         "duration": "03:48",
+         "songArtist": "One Direction",
+         "songAlbum": "Four"
+      },
+      {
+         "songName": "18",
+         "duration": "04:08",
+         "songArtist": "One Direction",
+         "songAlbum": "Four"
+      },
+      {
+         "songName": "Ready To Run",
+         "duration": "03:16",
+         "songArtist": "One Direction",
+         "songAlbum": "Four"
+      },
+      {
+         "songName": "No Control",
+         "duration": "03:19",
+         "songArtist": "One Direction",
+         "songAlbum": "Four"
+      },
+      {
+         "songName": "Once In A Lifetime",
+         "duration": "02:38",
+         "songArtist": "One Direction",
+         "songAlbum": "Four"
+      },
+      {
+         "songName": "Stockholm Syndrome",
+         "duration": "03:34",
+         "songArtist": "One Direction",
+         "songAlbum": "Four"
+      },
+      {
+         "songName": "Fireproof",
+         "duration": "02:54",
+         "songArtist": "One Direction",
+         "songAlbum": "Four"
+      },
+      {
+         "songName": "Act My Age",
+         "duration": "03:18",
+         "songArtist": "One Direction",
+         "songAlbum": "Four"
+      },
+      {
+         "songName": "Where Do Broken Hearts Go",
+         "duration": "03:49",
+         "songArtist": "One Direction",
+         "songAlbum": "Four"
+      },
+      {
+         "songName": "A.M.",
+         "duration": "03:28",
+         "songArtist": "One Direction",
+         "songAlbum": "Made In The AM"
+      },
+      {
+         "songName": "Drag Me Down",
+         "duration": "03:12",
+         "songArtist": "One Direction",
+         "songAlbum": "Made In The AM"
+      },
+      {
+         "songName": "End Of The Day",
+         "duration": "03:14",
+         "songArtist": "One Direction",
+         "songAlbum": "Made In The AM"
+      },
+      {
+         "songName": "Infinity",
+         "duration": "04:09",
+         "songArtist": "One Direction",
+         "songAlbum": "Made In The AM"
+      },
+      {
+         "songName": "Perfect",
+         "duration": "03:50",
+         "songArtist": "One Direction",
+         "songAlbum": "Made In The AM"
+      },
+      {
+         "songName": "If I Could Fly",
+         "duration": "03:50",
+         "songArtist": "One Direction",
+         "songAlbum": "Made In The AM"
+      },
+      {
+         "songName": "Hey Angel",
+         "duration": "04:00",
+         "songArtist": "One Direction",
+         "songAlbum": "Made In The AM"
+      },
+      {
+         "songName": "I Want To Write You A Song",
+         "duration": "02:59",
+         "songArtist": "One Direction",
+         "songAlbum": "Made In The AM"
+      },
+      {
+         "songName": "Walking In The Wind",
+         "duration": "03:22",
+         "songArtist": "One Direction",
+         "songAlbum": "Made In The AM"
+      },
+      {
+         "songName": "History",
+         "duration": "03:07",
+         "songArtist": "One Direction",
+         "songAlbum": "Made In The AM"
+      },
+      {
+         "songName": "Olivia",
+         "duration": "02:58",
+         "songArtist": "One Direction",
+         "songAlbum": "Made In The AM"
+      },
+      {
+         "songName": "Temporary Fix",
+         "duration": "02:55",
+         "songArtist": "One Direction",
+         "songAlbum": "Made In The AM"
+      },
+      {
+         "songName": "Long Way Down",
+         "duration": "03:12",
+         "songArtist": "One Direction",
+         "songAlbum": "Made In The AM"
+      },
+      {
+         "songName": "Never Enough",
+         "duration": "03:33",
+         "songArtist": "One Direction",
+         "songAlbum": "Made In The AM"
+      },
+      {
+         "songName": "Midnight Memories",
+         "duration": "02:56",
+         "songArtist": "One Direction",
+         "songAlbum": "Midnight Memories"
+      },
+      {
+         "songName": "Best Song Ever",
+         "duration": "03:20",
+         "songArtist": "One Direction",
+         "songAlbum": "Midnight Memories"
+      },
+      {
+         "songName": "Story Of My Life",
+         "duration": "04:05",
+         "songArtist": "One Direction",
+         "songAlbum": "Midnight Memories"
+      },
+      {
+         "songName": "You And I",
+         "duration": "03:57",
+         "songArtist": "One Direction",
+         "songAlbum": "Midnight Memories"
+      },
+      {
+         "songName": "Right Now",
+         "duration": "03:20",
+         "songArtist": "One Direction",
+         "songAlbum": "Midnight Memories"
+      },
+      {
+         "songName": "Happily",
+         "duration": "02:55",
+         "songArtist": "One Direction",
+         "songAlbum": "Midnight Memories"
+      },
+      {
+         "songName": "Diana",
+         "duration": "03:04",
+         "songArtist": "One Direction",
+         "songAlbum": "Midnight Memories"
+      },
+      {
+         "songName": "Rock Me",
+         "duration": "03:19",
+         "songArtist": "One Direction",
+         "songAlbum": "Take Me Home"
+      },
+      {
+         "songName": "C'mon C'mon",
+         "duration": "02:44",
+         "songArtist": "One Direction",
+         "songAlbum": "Take Me Home"
+      },
+      {
+         "songName": "I Would",
+         "duration": "03:20",
+         "songArtist": "One Direction",
+         "songAlbum": "Take Me Home"
+      },
+      {
+         "songName": "Kiss You",
+         "duration": "03:06",
+         "songArtist": "One Direction",
+         "songAlbum": "Take Me Home"
+      },
+      {
+         "songName": "Back For You",
+         "duration": "02:58",
+         "songArtist": "One Direction",
+         "songAlbum": "Take Me Home"
+      },
+      {
+         "songName": "Live While We're Young",
+         "duration": "03:20",
+         "songArtist": "One Direction",
+         "songAlbum": "Take Me Home"
+      },
+      {
+         "songName": "She's Not Afraid",
+         "duration": "03:12",
+         "songArtist": "One Direction",
+         "songAlbum": "Take Me Home"
+      },
+      {
+         "songName": "Heart Attack",
+         "duration": "03:00",
+         "songArtist": "One Direction",
+         "songAlbum": "Take Me Home"
+      },
+      {
+         "songName": "They Dont Know About Us",
+         "duration": "03:20",
+         "songArtist": "One Direction",
+         "songAlbum": "Take Me Home"
+      },
+      {
+         "songName": "Summer Love",
+         "duration": "03:27",
+         "songArtist": "One Direction",
+         "songAlbum": "Take Me Home"
+      },
+      {
+         "songName": "Up All Night",
+         "duration": "03:14",
+         "songArtist": "One Direction",
+         "songAlbum": "Up All Night"
+      },
+      {
+         "songName": "What Makes You Beautiful",
+         "duration": "03:21",
+         "songArtist": "One Direction",
+         "songAlbum": "Up All Night"
+      },
+      {
+         "songName": "More Than This",
+         "duration": "03:49",
+         "songArtist": "One Direction",
+         "songAlbum": "Up All Night"
+      },
+      {
+         "songName": "Stole My Heart",
+         "duration": "03:23",
+         "songArtist": "One Direction",
+         "songAlbum": "Up All Night"
+      },
+      {
+         "songName": "I Wish",
+         "duration": "03:36",
+         "songArtist": "One Direction",
+         "songAlbum": "Up All Night"
+      },
+      {
+         "songName": "Save You Tonight",
+         "duration": "03:24",
+         "songArtist": "One Direction",
+         "songAlbum": "Up All Night"
+      },
+      {
+         "songName": "I Want",
+         "duration": "02:51",
+         "songArtist": "One Direction",
+         "songAlbum": "Up All Night"
+      },
+      {
+         "songName": "Gotta Be You",
+         "duration": "04:01",
+         "songArtist": "One Direction",
+         "songAlbum": "Up All Night"
+      }
+   ]
+}

@@ -1,0 +1,93 @@
+.logister {
+   height: calc(100% - 60px);
+   width: 100%;
+   margin-top: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   user-select: none;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   font-family: 'Roboto';
+   text-align: center;
+   color: #fff;
+   align-items: center;
+}
+
+.form > h1 {
+   margin-bottom: 20px;
+   background-image: url('../../public/images/Ocean\ Spotify.png');
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 2.5rem;
+   cursor: default;
+}
+
+.form > .message {
+   display: none;
+   font-family: 'Varela Round';
+   color: #000;
+   padding: 10px;
+   border-radius: 10px;
+   margin-bottom: 20px;
+   transition: all .3s ease-in-out;
+}
+
+.form > .message.show {
+   display: block;
+}
+
+.form > .message.show.yes {
+   background: #24e224;
+}
+
+.form > .message.show.no {
+   background: red;
+   color: #fff;
+}
+
+.form > .usernameField, .form > .nameField, .form > span > .passwordField {
+   margin: 10px;
+   padding: 10px;
+   border: 3px solid lightblue;
+   border-radius: 10px;
+   width: 400px;
+}
+
+.form > span {
+   position: relative;
+}
+
+.form > span > input[type="checkbox"] {
+   position: absolute;
+   top: 22px;
+   right: 30px;
+}
+
+.form > h5 {
+   font-size: 1.3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+   cursor: default;
+}
+
+.form > button {
+   width: 100px;
+   padding: 10px;
+   border: none;
+   border-radius: 20px;
+   cursor: pointer;
+   margin: 20px;
+   background-color: orange;
+   transition: all .3s ease-in-out;
+}
+
+.form > button:hover {
+   background-color: orangered;
+}

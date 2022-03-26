@@ -1,0 +1,348 @@
+{
+   "albums": [
+      {
+         "albumName": "Four",
+         "artistName": "One Direction",
+         "artistLink": "https://open.spotify.com/artist/4AK6F7OLvEQ5QYCBNiQWHq",
+         "bg1": "rgb(83,83,83)",
+         "numberOfSongs": "10",
+         "totalDuration": "34:43",
+         "songs": [
+            {
+               "songName": "Night Changes",
+               "duration": "04:00",
+               "songArtist": "One Direction",
+               "id": 1
+            },
+            {
+               "songName": "Steal My Girl",  
+               "duration": "03:48",
+               "songArtist": "One Direction",
+               "id": 2
+            },
+            {
+               "songName": "18",
+               "duration": "04:08",
+               "songArtist": "One Direction",
+               "id": 3
+            },
+            {
+               "songName": "Ready To Run",
+               "duration": "03:16",
+               "songArtist": "One Direction",
+               "id": 4
+            },
+            {
+               "songName": "No Control",
+               "duration": "03:19",
+               "songArtist": "One Direction",
+               "id": 5
+            },
+            {
+               "songName": "Once In A Lifetime",
+               "duration": "02:38",
+               "songArtist": "One Direction",
+               "id": 6
+            },
+            {
+               "songName": "Stockholm Syndrome",
+               "duration": "03:34",
+               "songArtist": "One Direction",
+               "id": 7
+            },
+            {
+               "songName": "Fireproof",
+               "duration": "02:54",
+               "songArtist": "One Direction",
+               "id": 8
+            },
+            {
+               "songName": "Act My Age",
+               "duration": "03:18",
+               "songArtist": "One Direction",
+               "id": 9
+            },
+            {
+               "songName": "Where Do Broken Hearts Go",
+               "duration": "03:49",
+               "songArtist": "One Direction",
+               "id": 10
+            }
+         ]
+      }, 
+      {
+         "albumName": "Made In The AM",
+         "artistName":"One Direction",
+         "artistLink": "https://open.spotify.com/artist/4AK6F7OLvEQ5QYCBNiQWHq",
+         "bg1": "rgb(255, 102, 0)",
+         "numberOfSongs": "14",
+         "totalDuration": "47:58",
+         "songs": [
+            {
+               "songName": "A.M.",
+               "duration": "03:28",
+               "songArtist": "One Direction",
+               "id": 1
+            },
+            {
+               "songName": "Drag Me Down",
+               "duration": "03:12",
+               "songArtist": "One Direction",
+               "id": 2
+            },
+            {
+               "songName": "End Of The Day",
+               "duration": "03:14",
+               "songArtist": "One Direction",
+               "id": 3
+            },
+            {
+               "songName": "Infinity",
+               "duration": "04:09",
+               "songArtist": "One Direction",
+               "id": 4
+            },
+            {
+               "songName": "Perfect",
+               "duration": "03:50",
+               "songArtist": "One Direction",
+               "id": 5
+            },
+            {
+               "songName": "If I Could Fly",
+               "duration": "03:50",
+               "songArtist": "One Direction",
+               "id": 6
+            },
+            {
+               "songName": "Hey Angel",
+               "duration": "04:00",
+               "songArtist": "One Direction",
+               "id": 7
+            },
+            {
+               "songName": "I Want To Write You A Song",
+               "duration": "02:59",
+               "songArtist": "One Direction",
+               "id": 8
+            },
+            {
+               "songName": "Walking In The Wind",
+               "duration": "03:22",
+               "songArtist": "One Direction",
+               "id": 9
+            },
+            {
+               "songName": "History",
+               "duration": "03:07",
+               "songArtist": "One Direction",
+               "id": 10
+            },
+            {
+               "songName": "Olivia",
+               "duration": "02:58",
+               "songArtist": "One Direction",
+               "id": 11
+            },
+            {
+               "songName": "Temporary Fix",
+               "duration": "02:55",
+               "songArtist": "One Direction",
+               "id": 12
+            },
+            {
+               "songName": "Long Way Down",
+               "duration": "03:12",
+               "songArtist": "One Direction",
+               "id": 13
+            },
+            {
+               "songName": "Never Enough",
+               "duration": "03:33",
+               "songArtist": "One Direction",
+               "id": 14
+            }
+         ]
+      },
+      {
+         "albumName": "Midnight Memories",
+         "artistName":"One Direction",
+         "artistLink": "https://open.spotify.com/artist/4AK6F7OLvEQ5QYCBNiQWHq",
+         "bg1": "rgb(218, 22, 22)",
+         "numberOfSongs": "7",
+         "totalDuration": "49:57",
+         "songs": [
+            {
+               "songName": "Midnight Memories",
+               "duration": "02:56",
+               "songArtist": "One Direction",
+               "id": 1
+            },
+            {
+               "songName": "Best Song Ever",
+               "duration": "03:20",
+               "songArtist": "One Direction",
+               "id": 2
+            },
+            {
+               "songName": "Story Of My Life",
+               "duration": "04:05",
+               "songArtist": "One Direction",
+               "id": 3
+            },
+            {
+               "songName": "You And I",
+               "duration": "03:57",
+               "songArtist": "One Direction",
+               "id": 4
+            },
+            {
+               "songName": "Right Now",
+               "duration": "03:20",
+               "songArtist": "One Direction",
+               "id": 5
+            },
+            {
+               "songName": "Happily",
+               "duration": "02:55",
+               "songArtist": "One Direction",
+               "id": 6
+            },
+            {
+               "songName": "Diana",
+               "duration": "03:04",
+               "songArtist": "One Direction",
+               "id": 7
+            }
+         ]
+      },
+      {
+         "albumName": "Take Me Home",
+         "artistName":"One Direction",
+         "artistLink": "https://open.spotify.com/artist/4AK6F7OLvEQ5QYCBNiQWHq",
+         "bg1": "rgb(67, 9, 204)",
+         "numberOfSongs": "10",
+         "totalDuration": "31:46",
+         "songs": [
+            {
+               "songName": "Rock Me",
+               "duration": "03:19",
+               "songArtist": "One Direction",
+               "id": 1
+            },
+            {
+               "songName": "C'mon C'mon",
+               "duration": "02:44",
+               "songArtist": "One Direction",
+               "id": 2
+            },
+            {
+               "songName": "I Would",
+               "duration": "03:20",
+               "songArtist": "One Direction",
+               "id": 3
+            },
+            {
+               "songName": "Kiss You",
+               "duration": "03:06",
+               "songArtist": "One Direction",
+               "id": 4
+            },
+            {
+               "songName": "Back For You",
+               "duration": "02:58",
+               "songArtist": "One Direction",
+               "id": 5
+            },
+            {
+               "songName": "Live While We're Young",
+               "duration": "03:20",
+               "songArtist": "One Direction",
+               "id": 6
+            },
+            {
+               "songName": "She's Not Afraid",
+               "duration": "03:12",
+               "songArtist": "One Direction",
+               "id": 7
+            },
+            {
+               "songName": "Heart Attack",
+               "duration": "03:00",
+               "songArtist": "One Direction",
+               "id": 8
+            },
+            {
+               "songName": "They Dont Know About Us",
+               "duration": "03:20",
+               "songArtist": "One Direction",
+               "id": 9
+            },
+            {
+               "songName": "Summer Love",
+               "duration": "03:27",
+               "songArtist": "One Direction",
+               "id": 10
+            }
+         ]
+      },
+      {
+         "albumName": "Up All Night",
+         "artistName": "One Direction",
+         "artistLink": "https://open.spotify.com/artist/4AK6F7OLvEQ5QYCBNiQWHq",
+         "bg1": "rgb(200, 0, 0)",
+         "numberOfSongs": "8",
+         "totalDuration": "27:39",
+         "songs": [
+            {
+               "songName": "Up All Night",
+               "duration": "03:14",
+               "songArtist": "One Direction",
+               "id": 1
+            },
+            {
+               "songName": "What Makes You Beautiful",
+               "duration": "03:21",
+               "songArtist": "One Direction",
+               "id": 2
+            },
+            {
+               "songName": "More Than This",
+               "duration": "03:49",
+               "songArtist": "One Direction",
+               "id": 3
+            },
+            {
+               "songName": "Stole My Heart",
+               "duration": "03:23",
+               "songArtist": "One Direction",
+               "id": 4
+            },
+            {
+               "songName": "I Wish",
+               "duration": "03:36",
+               "songArtist": "One Direction",
+               "id": 5
+            },
+            {
+               "songName": "Save You Tonight",
+               "duration": "03:24",
+               "songArtist": "One Direction",
+               "id": 6
+            },
+            {
+               "songName": "I Want",
+               "duration": "02:51",
+               "songArtist": "One Direction",
+               "id": 7
+            },
+            {
+               "songName": "Gotta Be You",
+               "duration": "04:01",
+               "songArtist": "One Direction",
+               "id": 8
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Varela&display=swap');
+
+.homepage {
+   height: calc(100% - 60px);
+   background-color: #1a1a1a;
+   color: #fff;
+   padding-top: 60px;
+   user-select: none;
+   font-family: 'Lato';
+}
+
+.welcomeHome {
+   font-family: cursive;
+   font-weight: 500;
+   font-size: 1.5em;
+   padding: 40px 0 20px 20px;
+}
+
+.homepageGrid {
+   display: grid;
+   grid-template-rows: repeat(2, 1fr);
+   grid-template-columns: repeat(4, 1fr);
+   gap: 2vmin;
+}
+
+.homepageEl {
+   display: flex;
+   height: 6rem;
+   width: 90%;
+   border-radius: 10px;
+   margin: 10px;
+   color: #fff;
+   background-color: rgba(51, 51, 51, .8);
+   text-decoration: none;
+   transition: all .2s ease-in-out;
+}
+
+.homepageEl:hover {
+   transform: scale(1.05);
+}
+
+.homepageEl > img {
+   border-radius: 10px;
+   height: 100%;
+   aspect-ratio: 1/1;
+}
+
+.homepageEl > span {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 500;
+   font-size: 1.2rem;
+}

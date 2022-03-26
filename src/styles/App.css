@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Varela&display=swap');
+
+:root {
+  --navWidth: 200px;
+  --sideHeight: 87.12121vh;
+}
+
+/* ALL */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.sides {
+  display: flex;
+  flex-direction: row;
+}
+
+.rightSide {
+  width: calc(100vw - var(--navWidth));
+  height: calc(100vh - 102px);
+  background-color: #2A2A2A;
+  overflow-y: hidden;
+}

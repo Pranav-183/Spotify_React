@@ -1,0 +1,127 @@
+.Album {
+   height: 100%;
+   color: #fff;
+   overflow-y: auto;
+}
+
+/* TOP RIGHT */
+
+.topRight {
+   height: 31.56vh;
+   overflow-y: auto;
+   display: flex;
+   align-items: center;
+   background: linear-gradient(to bottom, var(--bg1), rgb(0,0,0));
+   padding-top: 60px;
+   user-select: none;
+}
+
+.topRight > .albumImg {
+   height: 90%;
+   aspect-ratio: 1/1;
+   margin: 0 3.7vh;
+}
+
+.topRight > .albumInfo {
+   height: 19vh;
+   display: flex;
+   flex-direction: column;
+   color: #fff;
+   font-family: 'Roboto';
+}
+
+.albumInfo > .firstLine {
+   font-size: 90%;
+   margin-top: 2.5vh;
+   font-weight: 600;
+}
+
+.albumInfo > .secondLine {
+   margin-top: 0.6vh;
+   font-size: 9vh;
+   font-weight: 600;
+   cursor: default;
+}
+
+.albumInfo > .thirdLine {
+   display: flex;
+   align-items: center;
+   font-family: 'Varela';
+   margin-top: 1.2vh;
+}
+
+.thirdLine > .artist > a {
+   text-decoration: none;
+   color: #fff;
+}
+
+.thirdLine > .artist > a:hover {
+   text-decoration: underline;
+}
+
+.thirdLine > .artist > h5 {
+   font-size: 1.8vh;
+   margin-top: 0.3vh;
+}
+
+/* MIDDLE RIGHT */
+
+.middleRight {
+   display: flex;
+   height: 79.2;
+   display: flex;
+   align-items: center;
+   padding-left: 2vw;
+}
+
+.middleRight > .playAllSongs, .middleRight > .likeAlbum {
+   margin: 10px;
+   cursor: default;
+   transition: all .3s ease-in-out;
+}
+
+.middleRight > .playAllSongs {
+   color: rgb(76, 243, 76);
+   font-size: 55px;
+}
+
+.middleRight > .playAllSongs:hover {
+   color: rgb(39, 250, 39);
+   transform: scale(1.1);
+}
+
+.middleRight > .likeAlbum {
+   color: #b3b3b3;
+   font-size: 40px;
+}
+
+.middleRight > .likeAlbum:hover {
+   color: #fff;
+}
+
+/* BOTTOM RIGHT */
+
+hr {
+   width: 95%;
+   margin: 0 auto;
+   background-color: #b3b3b3;
+}
+
+.songHeadings {
+   color: #b3b3b3;
+   display: flex;
+   font-family: 'Roboto';
+   padding-bottom: 1vh;
+   padding-top: 2vh;
+   position: sticky;
+}
+
+.songHeadingsHash {
+   margin-left: 4vw;
+   margin-right: 4.2vw;
+}
+
+.songHeadingsDuration {
+   margin-left: auto;
+   margin-right: 4.2vw;
+}

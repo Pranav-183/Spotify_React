@@ -1,0 +1,135 @@
+.bottomBar {
+   background: #2a2a2a;
+   height: 102px;
+   width: 100vw;
+   display: flex;
+   font-family: 'Roboto';
+   position: fixed;
+   bottom: 0;
+}
+
+/* SONG INFO */
+
+.songInfo {
+   width: 28vw;
+   display: flex;
+   justify-content: flex-start;
+   padding: 0 1vw;
+   align-items: center;
+}
+
+.songInfoImg {
+   height: 85%;
+   aspect-ratio: 1/1;
+   border: 1px solid rgb(1, 1, 182);
+}
+
+.songInfoText {
+   display: flex;
+   flex-direction: column;
+   height: 85%;
+   color: #fff;
+}
+
+.songInfoText > span {
+   padding: 0 1vw;
+}
+
+.songInfoSongName {
+   font-size: 110%;
+   margin: 2vh 0 .5vh 0;
+}
+
+.songInfoSongArtist {
+   font-size: 90%;
+   margin: .5vh 0;
+}
+
+/* CONTROLS */
+
+.controls {
+   width: 45vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.icons {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 20vw;
+   padding: .5vw 1vw;
+}
+
+.icons > i {
+   color: #b3b3b3;
+   font-size: 30px;
+   padding: 5px;
+   cursor: default;
+   transition: all .2s ease-in-out;
+}
+.icons > i:hover {
+   color: #fff;
+}
+
+.icons > .plause {
+   font-size: 40px;
+   color: #fff;
+}
+.icons > .plause:hover {
+   transform: scale(1.1);
+}
+
+.seekbarDiv {
+   display: flex;
+}
+
+.seekbarDiv > span {
+   color: #fff;
+   padding: 0 10px;
+   font-size: 90%;
+   cursor: default;
+}
+
+.seekbar {
+   width: 32.5vw;
+   cursor: pointer;
+}
+
+/* OTHER CONTROLS */
+
+.otherControls {
+   width: 27vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.otherControls > * {
+   margin: 2px;
+}
+
+.otherControls > a > .queue, .otherControls > .volume {
+   transition: all .2s ease-in-out;
+}
+
+.otherControls > a > .queue {
+   color: #b3b3b3;
+   cursor: default;
+   text-decoration: none;
+}
+
+.otherControls > .volume {
+   color: #b3b3b3;
+   cursor: default;
+}
+
+.otherControls > a > .queue:hover, .otherControls > .volume:hover {
+   color: #fff;
+}
+
+.otherControls > .volumeBar {
+   cursor: pointer;
+}
