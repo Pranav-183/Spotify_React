@@ -5,7 +5,7 @@ import fetchPost, { showMessage, showPassword } from "../../functions/formFuncti
 const SignIn = ({ currentUser, setCurrentUser }) => {
    const navigate = useNavigate()
    useEffect(() => {
-      if (currentUser) {
+      if (currentUser.username) {
          navigate(-1)
       }
       document.querySelector('.usernameField').focus()
@@ -14,16 +14,30 @@ const SignIn = ({ currentUser, setCurrentUser }) => {
    const submit = e => {
       e.preventDefault()
       const { username, password } = e.target
-      fetchPost(
-         'login',
-         {
+      fetch('http://localhost:8000/login', {
+         method: 'POST',
+         headers: { 'Accept': 'application/json', 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
+         body: JSON.stringify({
             username: username.value,
             password: password.value
-         },
-         showMessage,
-         '#/',
-         () => setCurrentUser(username.value)
-      )
+         })
+      })
+         .then(res => {
+            if (res.ok) {
+               res.json()
+                  .then(data => {
+                     showMessage('no', 'yes', data.message)
+                     setCurrentUser({
+                        username: data.user[0].username,
+                        playlists: data.user[0].playlists
+                     })
+                  })
+               setTimeout(() => window.location.replace('#/'), 500)
+            } else {
+               res.json().then(data => showMessage('yes', 'no', data))
+            }
+         })
+         .catch(err => showMessage('yes', 'no', 'Login Error'))
    }
 
    return (
@@ -42,5 +56,5 @@ const SignIn = ({ currentUser, setCurrentUser }) => {
       </div>
    )
 }
- 
+
 export default SignIn;

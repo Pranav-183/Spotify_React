@@ -2,7 +2,7 @@ import '../../styles/TopBar.css'
 import { useState } from "react";
 import { Link, useNavigate } from 'react-router-dom';
 
-const TopBar = ({ currentUser }) => {
+const TopBar = ({ currentUser, setLastPlayedFunc }) => {
    const [time, setTime] = useState(new Date().toString().substring(16, 24))
    setTimeout(() => {
       setTime(new Date().toString().substring(16, 24))
@@ -10,9 +10,9 @@ const TopBar = ({ currentUser }) => {
    const navigate = useNavigate()
 
    const accounts = () => {
-      if (currentUser) {
+      if (currentUser?.username) {
          return <>
-            {currentUser}
+            {currentUser.username}
          </>
       } else {
          return <>
@@ -31,6 +31,9 @@ const TopBar = ({ currentUser }) => {
          <div className="time">{time}</div>
          <div className="accounts">
             {accounts()}
+         </div>
+         <div className="saveSession">
+            <a onClick={setLastPlayedFunc}>Save Session</a>
          </div>
       </div>
    )

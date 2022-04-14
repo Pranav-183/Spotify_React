@@ -1,4 +1,4 @@
-import '../../styles/Album.css';
+import '../../styles/Playbum.css';
 import '../../styles/CustomScrollbar.css';
 import { useParams } from "react-router-dom";
 import { useEffect } from 'react';
@@ -7,7 +7,7 @@ import Songs from '../../data/Songs.json'
 import topBarFunction from '../../functions/ScrollFunctions';
 import SongItems from '../parts/SongItems';
 
-const Album = ({ songInfo, setSongInfo, plauseSongItem, plauseSongGroup }) => {
+const Album = ({ songInfo, setSongInfo, plauseSongGroup, audio, showPauseForPlayingSong, showPlayForNotPlayingSong }) => {
    const param = useParams().album
    const album = Albums.albums.find(album => album.albumName === param)
    const songs = Songs.songs.filter(song => song.songAlbum === param)
@@ -21,6 +21,8 @@ const Album = ({ songInfo, setSongInfo, plauseSongItem, plauseSongGroup }) => {
    
    useEffect(() => {
       document.querySelector('.topRight').style.setProperty('--bg1', album.bg1)
+      showPauseForPlayingSong(songInfo.song_name)
+      showPlayForNotPlayingSong(songInfo.song_name)
    }, [location])
 
    return (
@@ -51,7 +53,7 @@ const Album = ({ songInfo, setSongInfo, plauseSongItem, plauseSongGroup }) => {
                <div className="songHeadingsDuration"><span className='material-icons'>schedule</span></div>
             </div>
             <hr />
-            <SongItems songs={songs} plauseSongItem={plauseSongItem} />
+            <SongItems songs={songs} audio={audio} setSongInfo={setSongInfo} songInfo={songInfo} />
          </div>
       </div>
    )

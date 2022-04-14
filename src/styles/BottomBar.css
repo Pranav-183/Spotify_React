@@ -73,6 +73,9 @@
 .icons > i:hover {
    color: #fff;
 }
+.icons > i.next {
+   margin-left: -7px;
+}
 
 .icons > .plause {
    font-size: 40px;
